@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "name": "fitnesstracker2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "seed:dev": "nodemon ./db/seed.js",
+    "start": "node index.js", 
+    "start:dev": "nodemon index.js" 
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
